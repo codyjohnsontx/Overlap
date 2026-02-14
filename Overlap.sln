@@ -1,0 +1,30 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Overlap.Core", "src\\Overlap.Core\\Overlap.Core.csproj", "{B863A8F9-4D63-432A-9DA7-06861755E7D4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Overlap.App", "src\\Overlap.App\\Overlap.App.csproj", "{A6258F69-5EBA-4A8F-BD31-F85FDCCB61D7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Overlap.Core.Tests", "tests\\Overlap.Core.Tests\\Overlap.Core.Tests.csproj", "{106D863C-3E0B-49BE-807D-B8A27A157945}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B863A8F9-4D63-432A-9DA7-06861755E7D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B863A8F9-4D63-432A-9DA7-06861755E7D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B863A8F9-4D63-432A-9DA7-06861755E7D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B863A8F9-4D63-432A-9DA7-06861755E7D4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A6258F69-5EBA-4A8F-BD31-F85FDCCB61D7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A6258F69-5EBA-4A8F-BD31-F85FDCCB61D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A6258F69-5EBA-4A8F-BD31-F85FDCCB61D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A6258F69-5EBA-4A8F-BD31-F85FDCCB61D7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{106D863C-3E0B-49BE-807D-B8A27A157945}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{106D863C-3E0B-49BE-807D-B8A27A157945}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{106D863C-3E0B-49BE-807D-B8A27A157945}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{106D863C-3E0B-49BE-807D-B8A27A157945}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
